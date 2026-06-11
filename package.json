@@ -1,0 +1,70 @@
+{
+  "name": "zerodb-qstash",
+  "version": "1.0.0",
+  "description": "Drop-in Upstash QStash replacement backed by ZeroDB event stream. Publish messages, schedule recurring tasks — zero config, auto-provisions on first use.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node node_modules/.bin/jest --config jest.config.cjs --forceExit",
+    "test:ci": "node node_modules/.bin/jest --config jest.config.cjs --forceExit --ci"
+  },
+  "keywords": [
+    "qstash",
+    "upstash",
+    "upstash-qstash",
+    "qstash-alternative",
+    "message-queue",
+    "task-queue",
+    "event-stream",
+    "pub-sub",
+    "pubsub",
+    "publish-subscribe",
+    "serverless-queue",
+    "zerodb",
+    "ainative",
+    "auto-provisioning",
+    "scheduled-messages",
+    "cron",
+    "cron-jobs",
+    "webhook",
+    "event-driven",
+    "background-jobs",
+    "topic-routing",
+    "mcp",
+    "ai-agent",
+    "agent-queue",
+    "cloud-queue",
+    "async-tasks"
+  ],
+  "author": "AINative Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/zerodb-qstash"
+  },
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/zerodb-qstash/issues"
+  },
+  "homepage": "https://zerodb.ai",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
