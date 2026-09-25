@@ -58,7 +58,7 @@
   "bugs": {
     "url": "https://github.com/AINative-Studio/zerodb-qstash/issues"
   },
-  "homepage": "https://zerodb.ai",
+  "homepage": "https://ainative.studio/products/zerodb",
   "dependencies": {},
   "devDependencies": {
     "jest": "^29.7.0",
