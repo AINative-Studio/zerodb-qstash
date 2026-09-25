@@ -1,6 +1,6 @@
 {
   "name": "zerodb-qstash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in Upstash QStash replacement backed by ZeroDB event stream. Publish messages, schedule recurring tasks — zero config, auto-provisions on first use.",
   "main": "index.cjs",
   "module": "index.js",
